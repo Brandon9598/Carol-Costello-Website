@@ -1,0 +1,107 @@
+/* 1440 to 1920  */
+@media only screen and (max-width:1921px){
+
+}
+
+/* 1366px to 1439 (widths smaller than the 1439 row*/
+@media only screen and (max-width:1439px){
+     html,
+     body{ font-size: 90%; }
+     .section-workshops img{ width: 98%; }
+}
+
+/* 1280px to 1365 */
+@media only screen and (max-width:1365px){
+     .section-workshops img{ width: 90%; }
+     .section-workshops p{
+          margin: 15px 0;
+     }
+
+}
+
+
+/* 1024 to 1280px (widths smaller that the 1140px row*/
+@media only screen and (max-width:1280px){
+     .upper-half,
+     .lower-half{
+          width: 85%;
+     }
+     
+     .section-workshops img{ 
+          width: 100%;
+          margin-left: 10px;
+          margin-top: 30px;
+     }
+     
+     .workshops{
+          width: 80%;
+          margin: 0 auto;
+     }
+}
+
+/* small tablets to big tablets: from 768 to 1023 */
+@media only screen and (max-width: 1023px){
+     html,
+     body{ font-size: 85%; }
+     
+     .category img{
+          margin: 20px auto;
+          width: 80%;
+     }
+     
+     .category h3{ font-weight: 300;}
+     
+     
+     .category .btn{
+          font-size: 100%;
+          font-weight: 300;
+     }
+     
+     .category .btn:link,
+     .category .btn:visited{
+          padding: 10px 20px;
+     }
+     
+     .section-workshops img{ 
+          margin-left: 30px;
+     }
+     
+     .section-workshops p:first-child{
+          margin-top: 30px    
+     }
+}
+
+/* small phones to small tablets: from 481 to 767*/
+@media only screen and (max-width:767px){
+     .main-nav{display: none;}
+     .main-nav-title h1 {
+          display: none;
+     }
+     .logo{ display: inline-block; }
+     
+     .mobile-nav-icon{display: inline-block;}
+     section{padding: 40px 0}
+     .col { width: 100%; }
+     body{ font-size: 90%;}
+     .biography-box{ width: 80%; }
+     .category img{ width: 70%; }
+     .category{ margin-bottom: 30px; }
+     .category:last-child{ margin-bottom: 0; }
+     .workshop-img img{
+          margin: 40px 0 0 0;
+     }
+     
+     .workshop-info{ 
+          text-align: center;
+          margin: 0 auto;
+     }
+     
+     footer .row{ width: 90%; }
+     
+}
+
+/* small phones! iphone 5 and smaller */
+@media only screen and (max-width:480px){
+     h2{ font-weight: 300}
+
+}
