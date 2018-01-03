@@ -150,10 +150,13 @@ p{
 /* HEADER */
 /*----------------------------------*/
 
+/* MAIN NAV */
+
 .main-page-header{
      background-size: cover;
      background-position: center;
      padding-bottom: 0px;
+     /*height: 100vh;*/
 }
 
 .main-nav{
@@ -162,18 +165,6 @@ p{
      float: left;
      text-align: center;
      margin-bottom: 20px;
-}
-
-.mobile-nav-icon{ 
-     float: right;
-     margin-top: 30px;
-     margin-right: 10px;
-     cursor: pointer;
-     display: none;
-}
-
-.mobile-nav-icon i{
-     font-size: 200%;
 }
 
 .main-nav li{
@@ -195,6 +186,7 @@ p{
     border-bottom: 2px solid #d2aa0c;
 }
 
+
 .slideshow-container{
      position: relative;
      text-align: center;
@@ -213,7 +205,7 @@ p{
 }
 
 .slideshow-container img{
-     width: 30%;
+     width: 40%;
      padding: 1px;
      margin: 0 auto;
      box-shadow: 2px 2px 2px #212121;
@@ -300,6 +292,68 @@ p{
      margin: 20px 10px;
      padding: 20px 0;
      text-decoration: none;
+}
+
+/* MOBILE NAV */
+.mobile-nav-icon{ 
+     float: right;
+     margin-top: 30px;
+     margin-right: 10px;
+     cursor: pointer;
+     display: none;
+}
+
+.mobile-nav-icon i{
+     font-size: 200%;
+}
+
+
+/* STICKY NAV */
+.sticky{
+     z-index: 1;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: auto;
+     background: rgba(255, 255, 255, 0.94);
+     box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .row{
+     display: inline;
+}
+
+.sticky .logo{
+     width: 50px;
+     height: auto;
+}
+
+.sticky h1{display: none; }
+.sticky img{ display: inline;}
+
+.sticky .menu,
+.sticky i
+{float: right;}
+
+.sticky .main-nav li{
+     margin: 10px 0;
+}
+
+.sticky .main-nav{
+     margin: 0;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+     color: #f1c40f;
+     padding: 10px 0px;
+     margin: 0 15px;
+}
+
+.sticky .mobile-nav-icon{ 
+     float: right;
+     margin-top: 5px;
 }
 
 
@@ -565,6 +619,11 @@ footer a{
 
 .biography-section-biography p{
      text-align: left;
+}
+
+.biography-section-biography img{
+     width: 40%;
+     margin-bottom: 20px;
 }
 
 span.name {
