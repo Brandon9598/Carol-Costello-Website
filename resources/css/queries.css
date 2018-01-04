@@ -8,9 +8,7 @@
      html,
      body{ font-size: 90%; }
      .section-workshops img{ width: 98%; }
-     .sticky {font-size: 140%;}
-     .sticky .main-nav li{
-          margin: 14px 0;
+
      }
 }
 
@@ -132,6 +130,12 @@
      
      footer .row{ width: 90%; }
      
+     .workshop-schedule-footer,
+     .contact-me-footer{
+          position: relative;
+          height: auto;
+     }
+     
 }
 
 /* small phones! iphone 5 and smaller */
@@ -154,6 +158,10 @@
      select,
      textarea{
           width: 80%;
+     }
+     
+     footer .col.span-1-of-2{
+          width: 45%;
      }
      
      footer .row{ margin-left: 10px;; }
